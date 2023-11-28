@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
 
-regex = /School/
-puts ARGV[0].scan(regex).join
+# This is an expression that must match the Term "School"
+
+puts ARGV[0].scan(/School/).join
